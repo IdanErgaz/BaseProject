@@ -36,7 +36,7 @@ class Test_001_Login:
         self.lp.setPassword(self.password)
         self.lp.clickLogin()
         act_title=self.driver.title
-        if act_title == "Dashboard / nopCommerce administration":
+        if act_title == "Dashboard888 / nopCommerce administration":
             assert True
             time.sleep(2)
             self.lp.clickLogout()
